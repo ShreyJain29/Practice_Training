@@ -23,14 +23,23 @@ public class ExcepEx1 {
 		return a+b;
 	}
 	
+<<<<<<< HEAD
+	public static int sub(a.b) {
+		return a-b;
+=======
 	public static int division (a,b) {
 		return a/b;
+>>>>>>> main
 	}
 	
 	public static void main(String[] args) {
 		ExcepEx1 e = new ExcepEx1();
 		System.out.println(e.excep());
 		System.out.println(add(5,8));
+<<<<<<< HEAD
+		System.out.println(sub(5,3));
+=======
 		System.out.println(add(10,2));
+>>>>>>> main
 	}
 }
