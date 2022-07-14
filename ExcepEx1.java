@@ -18,8 +18,14 @@ public class ExcepEx1 {
 		System.out.println("After Exception");
 		}
 	}
+	
+	public static int add (a,b) {
+		return a+b
+	}
+	
 	public static void main(String[] args) {
 		ExcepEx1 e = new ExcepEx1();
 		System.out.println(e.excep());
+		System.out.println(add(5,8));
 	}
 }
